@@ -204,7 +204,7 @@ mod tests {
 
     #[test]
     fn test_veracrypt_mount() {
-        mount_veracrypt("/home/dev/Downloads/master-pws", "Marios96<#>");
+        mount_veracrypt("/home/dev/Downloads/master-pws", "1345");
     }
 
     #[test]
