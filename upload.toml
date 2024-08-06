@@ -1,0 +1,32 @@
+[upload]
+  [upload.pws]
+  file_name = "Passworlds.kdbx"
+  file_dir = "/Desktop/Passworlds.kdbx"
+  veracrypt_mount_dir = "/Downloads/pws"
+  veracrypt_file_name = "master-pws"
+  veracrypt_volume_pw = "Example123"
+  [upload.txt]
+  file_name = "Text File (4).txt"
+  file_dir = "/Desktop/Text File (4).txt"
+  veracrypt_mount_dir = "/Downloads/text-master"
+  veracrypt_file_name = "text-file"
+  veracrypt_volume_pw = "Example123"
+
+[cache_dir]
+dir = "cache.bin"
+
+
+[cloud_providers]
+  [cloud_providers.dg]
+  cloud_name = "dg"
+  dir = "/cloud/dg/"
+  paste_to_dir = "dg:files/"
+
+  [cloud_providers.od_rcl]
+  cloud_name = "od_rcl"
+  dir = "/cloud/od/"
+  paste_to_dir = "od_rcl:desk/"
+
+
+
+
